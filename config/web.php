@@ -38,21 +38,21 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
-        'urlManager' => [
+        /*'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
               'foo/bar/update' => 'foo/bar/update',
               'foo/bar/<id:\d+>/update' => 'foo/bar/update',
             ],
-        ],
+        ],*/
     ],
     'params' => $params,
-    'modules' => [
+    /*'modules' => [
         'foo' => [
             'class' => 'app\modules\foo\Module',
         ],
-    ],
+    ],*/
 ];
 
 if (YII_ENV_DEV) {
